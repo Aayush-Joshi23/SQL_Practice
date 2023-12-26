@@ -1,0 +1,42 @@
+Given the CITY and COUNTRY tables, query the names of all cities where the CONTINENT is 'Africa'.
+
+Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
+
+Input Format
+
+The CITY and COUNTRY tables are described as follows:
+
+
++-------------+-------------+
+| Feld        |    Type     |
++-------------+-------------+
+| ID          | NUMBER      |
+| NAME        | VARCHAR (17)|
+| COUNTRYCODE | VARCHAR (3) |
+| DISTRICT    | VARCHAR (20)|
+| POPULATION  | NUMBER      |
++-------------+-------------+
+
+
++---------------+-------------+
+| Feld          |    Type     |
++---------------+-------------+
+|  CODE         | VARCHAR  (3)|
+|  NAME         | VARCHAR (44)|
+|  CONTINENT    | VARCHAR (13)|
+|  REGION       | VARCHAR (25)|
+|  SURFACEAREA  | NUMBER      |
+|  INDEPYEAR    | VARCHAR (5) |
+|  POPULATION   | NUMBER      |
+| LIFEEXPECTANCY| VARCHAR (4) |
+|  GNP          | NUMBER      |
+|  GBPOLD       | VARCHAR (9) |      
+|  LOCALNAME    | VARCHAR (44)|
+|GOVERNMANETFORM| VARCHAR (44)|
+| HEADOFSTATE   | VARCHAR (32)|
+| CAPITAL       | VARCHAR (4) |
+| C0DE2         | VARCHAR (2) |
++---------------+-------------+
+
+ 
+
